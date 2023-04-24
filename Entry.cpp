@@ -92,7 +92,7 @@ LONG main(LONG Argc, CHAR* Argv[]) {
       LONG chunkSize =
           chunkPerThread +
           (currThreadIdx == threadCount - 1 ? offsetCount % threadCount : 0);
-      printf("Started thread %i searching %i classes\n", freeThreadCount + 1,
+      printf("Started thread %i searching %i classes\n", currThreadIdx,
              chunkSize);
 
       --freeThreadCount;
