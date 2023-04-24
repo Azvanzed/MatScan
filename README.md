@@ -8,3 +8,4 @@ Open cmd Go to the folder where the scanner belongs and write: Scanner.exe scrip
 1000: class scan range
 3: class scan depth
 4: thread count
+![New Project](https://user-images.githubusercontent.com/107370797/233999018-1620b985-b2b2-47db-8f71-b4b67a47595b.png)
