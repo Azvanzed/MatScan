@@ -22,9 +22,9 @@ LONG main(LONG Argc, CHAR* Argv[]) {
 
   printf("Settings:\n");
   printf("scriptFile: %s\n", scriptFile);
-  printf("scriptFile: %i\n", scanRange);
-  printf("scriptFile: %i\n", scanDepth);
-  printf("scriptFile: %i\n\n", threadCount);
+  printf("scanRange: %i\n", scanRange);
+  printf("scanDepth: %i\n", scanDepth);
+  printf("threadCount: %i\n\n", threadCount);
 
   printf("Gathering offsets...\n");
   std::vector<ULONG> Offsets;
